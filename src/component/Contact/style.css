@@ -1,0 +1,80 @@
+.contact {
+  background-color: #f8f8f8;
+}
+.container-contact {
+  width: 85%;
+  text-align: center;
+  margin: auto;
+}
+.container-contact form {
+  margin-top: 60px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#name,
+#email,
+#subject,
+#submit,
+textarea {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #8c8c8c;
+}
+form .form-input {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+form .form-input > div {
+  width: 49%;
+}
+#name,
+#email {
+  width: 100%;
+}
+#subject {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  background-color: #ccc;
+}
+#submit {
+  /* width: 40%; */
+  padding: 10px 20px;
+  background-color: rgb(39, 39, 39);
+  margin: auto;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.errors {
+  display: flex;
+}
+.error {
+  width: 100%;
+  font-size: 12px;
+  color: red;
+}
+
+@media screen and (max-width: 650px) {
+  form .form-input > div {
+    width: 100%;
+  }
+  #submit {
+    width: 50%;
+  }
+  #name,
+  #email,
+  #submit,
+  textarea {
+    padding: 12px;
+  }
+  .container-contact form {
+    width: 100%;
+  }
+}

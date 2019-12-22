@@ -1,0 +1,140 @@
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  color: #333;
+}
+.profile-left {
+  width: 50%;
+}
+.profile-left h4 {
+  margin-bottom: 20px;
+}
+.profile-left .socialRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 12px;
+}
+.profile-left li .icons {
+  margin-right: 30px;
+}
+.socialRow .icons {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  color: #1a1a1a;
+  border: 1px solid #000;
+  border-radius: 50%;
+  line-height: 36px;
+  width: 38px;
+  height: 38px;
+}
+.profile-right {
+  width: 50%;
+}
+.bar {
+  height: 5px;
+  background-color: rgb(189, 188, 188);
+}
+.bar1,
+.bar2,
+.bar3,
+.bar4 {
+  height: 100%;
+  background-color: #333;
+  transition: width 2s;
+  width: 0;
+}
+.bar1-effect {
+  width: 90%;
+}
+.bar2-effect {
+  width: 90%;
+}
+.bar3-effect {
+  width: 80%;
+}
+.bar4-effect {
+  width: 70%;
+}
+
+.bar {
+  margin-top: 10px;
+}
+.profile-right ul {
+  padding: 15px 0;
+}
+.profile-right ul li {
+  position: relative;
+}
+.profile-left p {
+  font-size: 15px;
+  line-height: 2em;
+  width: 80%;
+  margin: 20px 0;
+}
+.info-icon {
+  margin-right: 5px;
+}
+.profile-left li {
+  padding: 10px 0;
+  font-size: 14px;
+}
+.profile-right li {
+  padding: 20px 0;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.skill,
+.percentage {
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+  font: 18px;
+}
+.skill {
+  left: 0;
+  text-transform: capitalize;
+}
+.percentage {
+  right: 0;
+}
+.profile-left ul li span {
+  display: inline-block;
+  width: 110px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 650px) {
+  .profile-left li {
+    font-size: 14px;
+  }
+  .profile-right ul li span {
+    font-size: 14px;
+  }
+  .profile-right li {
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  .bar {
+    margin-bottom: 40px;
+    height: 5px;
+  }
+  .socialIcon {
+    font-size: 16px;
+  }
+
+  .profile-left p {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .three-bars {
+    display: block;
+  }
+  .profile-left .socialRow {
+    justify-content: center;
+  }
+}

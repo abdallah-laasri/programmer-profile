@@ -1,0 +1,9 @@
+.footer {
+  background-color: rgb(19, 14, 14);
+  text-align: center;
+}
+.footer p {
+  color: rgb(87, 87, 87);
+  font-size: 20px;
+  text-transform: capitalize;
+}

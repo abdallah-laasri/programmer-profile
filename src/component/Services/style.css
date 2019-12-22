@@ -1,0 +1,60 @@
+.service {
+  background-color: #f8f8f8;
+}
+.service-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.service-row > div {
+  border: 1px solid #888;
+  padding: 60px 20px;
+  text-align: center;
+  width: 30%;
+  margin: 0 1%;
+}
+.service-row > div > div {
+  margin-bottom: 20px;
+}
+.service-row h2 {
+  font-size: 25px;
+  color: #333;
+  text-transform: capitalize;
+}
+.service-row p {
+  font-size: 14px;
+  color: #888;
+}
+.service-row span {
+  font-size: 1.5em;
+}
+.middle-div {
+  margin: 0 5%;
+}
+.line {
+  background-color: #888;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 650px) {
+  .service-row > div {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+  }
+  .profile-left {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .profile-right {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .about-second {
+    width: 100%;
+  }
+}

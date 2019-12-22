@@ -1,0 +1,66 @@
+.home {
+  height: 100vh;
+  background-image: url(./../../images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.black-container {
+  background-color: rgba(0, 0, 0, 0.589);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.home-container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #060606;
+  text-align: center;
+  display: block;
+  border: 2px solid #585855;
+  margin: 40px auto;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.home-container h1 {
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+.home-container p {
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: rgb(175, 175, 175);
+  line-height: 1.8;
+}
+.home-container .contact-me {
+  padding: 15px;
+  background: #22262d00;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 40px 20px;
+}
+.home-container .contact-me:hover {
+  background-color: #fff;
+  color: #333;
+}

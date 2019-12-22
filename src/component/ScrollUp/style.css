@@ -1,0 +1,21 @@
+.scrollUp {
+  width: 46px;
+  height: 46px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: rgb(43, 43, 43);
+  z-index: 10;
+  text-align: center;
+  border: 2px solid rgb(43, 43, 43);
+  color: #fff;
+  font-size: 1.5em;
+}
+.scrollUp:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(43, 43, 43);
+  color: rgb(24, 24, 24);
+}
+.hideIt {
+  display: none;
+}
