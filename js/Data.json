@@ -91,7 +91,7 @@
     {
       "id": 1,
       "field": "web",
-      "image": "../images/portfolio-img1.jpg"
+      "image": "./images/portfolio-img1.jpg"
     },
     {
       "id": 2,
@@ -102,32 +102,32 @@
       "id": 3,
       "field": "web",
 
-      "image": "/images/portfolio-img3.jpg"
+      "image": "./images/portfolio-img3.jpg"
     },
     {
       "id": 4,
       "field": "desktop",
-      "image": "/images/portfolio-img4.jpg"
+      "image": "./images/portfolio-img4.jpg"
     },
     {
       "id": 5,
       "field": "web",
-      "image": "/images/portfolio-img5.jpg"
+      "image": "./images/portfolio-img5.jpg"
     },
     {
       "id": 6,
       "field": "desktop",
-      "image": "/images/portfolio-img6.jpg"
+      "image": "./images/portfolio-img6.jpg"
     },
     {
       "id": 7,
       "field": "mobile",
-      "image": "/images/portfolio-img4.jpg"
+      "image": "./images/portfolio-img4.jpg"
     },
     {
       "id": 8,
       "field": "desktop",
-      "image": "/images/portfolio-img8.jpg"
+      "image": "./images/portfolio-img8.jpg"
     }
   ],
   "social": [
