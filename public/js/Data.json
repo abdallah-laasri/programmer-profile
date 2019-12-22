@@ -96,7 +96,7 @@
     {
       "id": 2,
       "field": "mobile",
-      "image": "/images/portfolio-img2.jpg"
+      "image": "./images/portfolio-img2.jpg"
     },
     {
       "id": 3,
