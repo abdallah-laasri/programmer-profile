@@ -1,0 +1,153 @@
+{
+  "profile": {
+    "info": [
+      {
+        "id": 1,
+        "icon": "fa fa-calendar info-icon ",
+        "title": "Date Of Birth",
+        "data": "8 Juin 1995"
+      },
+      {
+        "id": 2,
+        "icon": "fa fa-phone info-icon",
+        "title": "Phone ",
+        "data": "+(211)06123020"
+      },
+      {
+        "id": 3,
+        "icon": "fa fa-envelope info-icon",
+        "title": "Email",
+        "data": "JohnDoe@gmail.com"
+      },
+      {
+        "id": 4,
+        "icon": "fa fa-map-marker info-icon",
+        "title": "Address",
+        "data": "NYC USA"
+      }
+    ],
+    "social": [
+      {
+        "id": 1,
+        "icon": "fa fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "id": 2,
+        "icon": "fa fa-twitter",
+        "link": "https://www.twitter.com/"
+      },
+      {
+        "id": 3,
+        "icon": "fa fa-youtube",
+        "link": "https://www.youtube.com/"
+      },
+      {
+        "id": 4,
+        "icon": "fa fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "id": 5,
+        "icon": "fa fa-instagram",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "id": 6,
+        "icon": "fa fa-pinterest",
+        "link": "https://www.pinterest.com/"
+      },
+      { "id": 7, "icon": "fa fa-github", "link": "https://www.github.com/" }
+    ],
+    "skills": [
+      { "id": 1, "skill": "html", "percentage": "90%" },
+      { "id": 2, "skill": "css", "percentage": "90%" },
+      { "id": 3, "skill": "javascript", "percentage": "80%" },
+      { "id": 4, "skill": "Adobe Photoshop", "percentage": "70%" }
+    ]
+  },
+  "services": [
+    {
+      "id": 1,
+      "icon": "fa fa-laptop",
+      "title": "Web Design",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+    },
+    {
+      "id": 2,
+      "icon": "fa fa-mobile",
+      "title": "Mobile Design",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+    },
+    {
+      "id": 3,
+      "icon": "fa fa-desktop",
+      "title": "Desktop Design",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+    }
+  ],
+
+  "portfolio": [
+    {
+      "id": 1,
+      "field": "web",
+      "image": "../images/portfolio-img1.jpg"
+    },
+    {
+      "id": 2,
+      "field": "mobile",
+      "image": "./images/portfolio-img2.jpg"
+    },
+    {
+      "id": 3,
+      "field": "web",
+
+      "image": "/images/portfolio-img3.jpg"
+    },
+    {
+      "id": 4,
+      "field": "desktop",
+      "image": "/images/portfolio-img4.jpg"
+    },
+    {
+      "id": 5,
+      "field": "web",
+      "image": "/images/portfolio-img5.jpg"
+    },
+    {
+      "id": 6,
+      "field": "desktop",
+      "image": "/images/portfolio-img6.jpg"
+    },
+    {
+      "id": 7,
+      "field": "mobile",
+      "image": "/images/portfolio-img4.jpg"
+    },
+    {
+      "id": 8,
+      "field": "desktop",
+      "image": "/images/portfolio-img8.jpg"
+    }
+  ],
+  "social": [
+    {
+      "id": 1,
+      "icon": "icon fa fa-facebook fa-lg",
+      "title": "Follow Me on",
+      "body": "Social Facebook"
+    },
+    {
+      "id": 2,
+      "icon": "icon fa fa-twitter fa-lg",
+      "title": "Tweet Me on",
+      "body": "Social twitter"
+    },
+    {
+      "id": 3,
+      "icon": "icon fa fa-pinterest fa-lg",
+      "title": "Pin Me on",
+      "body": "Social Pinterest"
+    }
+  ]
+}

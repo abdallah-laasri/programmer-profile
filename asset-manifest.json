@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/programmer-profile/static/css/main.651dc82d.chunk.css",
+    "main.js": "/programmer-profile/static/js/main.bfee8efc.chunk.js",
+    "main.js.map": "/programmer-profile/static/js/main.bfee8efc.chunk.js.map",
+    "runtime~main.js": "/programmer-profile/static/js/runtime~main.b5d95856.js",
+    "runtime~main.js.map": "/programmer-profile/static/js/runtime~main.b5d95856.js.map",
+    "static/css/2.dd315c68.chunk.css": "/programmer-profile/static/css/2.dd315c68.chunk.css",
+    "static/js/2.4b47a908.chunk.js": "/programmer-profile/static/js/2.4b47a908.chunk.js",
+    "static/js/2.4b47a908.chunk.js.map": "/programmer-profile/static/js/2.4b47a908.chunk.js.map",
+    "index.html": "/programmer-profile/index.html",
+    "precache-manifest.c9ab892e5e7a593c3f10e23e1849311a.js": "/programmer-profile/precache-manifest.c9ab892e5e7a593c3f10e23e1849311a.js",
+    "service-worker.js": "/programmer-profile/service-worker.js",
+    "static/css/2.dd315c68.chunk.css.map": "/programmer-profile/static/css/2.dd315c68.chunk.css.map",
+    "static/css/main.651dc82d.chunk.css.map": "/programmer-profile/static/css/main.651dc82d.chunk.css.map",
+    "static/media/font-awesome.min.css": "/programmer-profile/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/home-avatar.PNG": "/programmer-profile/static/media/home-avatar.a63b4c5a.PNG",
+    "static/media/style.css": "/programmer-profile/static/media/home-bg.8d7c6388.jpg"
+  }
+}
