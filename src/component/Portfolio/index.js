@@ -20,7 +20,15 @@ class Portfolio extends React.Component {
           : arr.filter(item => item.field === field)
     });
   };
-
+  active = e => {
+    let ele = Array.from(e.target.parentNode.children);
+    ele.forEach(item => item.classList.remove("active"));
+    e.target.classList.add("active");
+  };
+  handlFilter = (e, arr, field) => {
+    this.imagesFilter(arr, field);
+    this.active(e);
+  };
   componentDidMount() {
     fetch("js/Data.json")
       .then(res => res.json())
@@ -41,14 +49,35 @@ class Portfolio extends React.Component {
         </div>
         <ul className="portfolio-list">
           <li
-            onClick={() => this.imagesFilter(images, "all")}
             className="active"
+            onClick={e => {
+              this.handlFilter(e, images, "all");
+            }}
           >
             all
           </li>
-          <li onClick={() => this.imagesFilter(images, "web")}>web</li>
-          <li onClick={() => this.imagesFilter(images, "mobile")}>mobile</li>
-          <li onClick={() => this.imagesFilter(images, "desktop")}>desktop</li>
+
+          <li
+            onClick={e => {
+              this.handlFilter(e, images, "web");
+            }}
+          >
+            web
+          </li>
+          <li
+            onClick={e => {
+              this.handlFilter(e, images, "mobile");
+            }}
+          >
+            mobile
+          </li>
+          <li
+            onClick={e => {
+              this.handlFilter(e, images, "desktop");
+            }}
+          >
+            desktop
+          </li>
         </ul>
         <div className="porfolio-row">
           {this.state.filteredArray.map(item => {

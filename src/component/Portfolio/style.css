@@ -12,7 +12,7 @@
   text-transform: capitalize;
   cursor: pointer;
 }
-.portfolio-list .active {
+.active {
   background-color: #333;
   color: #fff;
 }
